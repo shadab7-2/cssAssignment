@@ -1,0 +1,20 @@
+.navbar{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: aqua;
+    margin-left: auto;
+    
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.navItem{
+    display: flex;
+    justify-content: space-between;
+}
+.navItem-Link{
+    color: blue;
+    float: left;
+}
