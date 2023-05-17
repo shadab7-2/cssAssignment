@@ -1,23 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
+import AppRouter from './components/AppRouter';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      
+       <ul className='nav-list'>
+         <li><a href='http://localhost:3000/'>Home </a></li>
+         <li><a href='http://localhost:3000/'>Events </a></li>
+         <li><a href='http://localhost:3000/'>Reviews </a></li>
+       </ul>
+       <AppRouter/>
     </div>
   );
 }
